@@ -13,7 +13,7 @@ function Landing() {
           objectFit="cover"
           objectPosition="50% 50%"
           className={`duration-700 ease-in-out group-hover:opacity-75 
-              ${isLoading ? "scale-105 opacity-0" : "scale-100 opacity-100"}`}
+              ${isLoading ? " opacity-0" : " opacity-100"}`}
           onLoadingComplete={() => setLoading(false)}
         />
 
