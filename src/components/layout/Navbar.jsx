@@ -76,7 +76,10 @@ function Navbar() {
               </a>
             </Link>
 
-            <div onClick={openModel} className=" flex text-3xl cursor-pointer">
+            <div
+              onClick={openModel}
+              className="md:hidden flex text-3xl cursor-pointer"
+            >
               <FiMenu />
             </div>
           </div>

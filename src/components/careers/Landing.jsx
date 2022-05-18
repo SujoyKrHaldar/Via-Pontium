@@ -1,20 +1,13 @@
-import { useState } from "react";
-import Image from "next/image";
+import BackgroundImage from "../designs/others/BackgroundImage";
 
 function Landing() {
-  const [isLoading, setLoading] = useState(true);
   return (
     <>
       <div className={`w-full h-[55vh]`}>
-        <Image
+        <BackgroundImage
           alt="Landing Image"
+          position="50% 50%"
           src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="50% 50%"
-          className={`duration-700 ease-in-out group-hover:opacity-75 
-              ${isLoading ? " opacity-0" : " opacity-100"}`}
-          onLoadingComplete={() => setLoading(false)}
         />
 
         <div className="container w-full h-full flex items-end justify-start">
