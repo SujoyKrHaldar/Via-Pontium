@@ -11,8 +11,14 @@ function Landing() {
 
         <div className="container py-16 w-full h-full flex items-end justify-start">
           <div className="text-white max-w-2xl">
-            <h1>Boost your marketing efforts with 11x growth initiatives</h1>
-            <p>Disrupt markets, close deals!</p>
+            <h1>
+              Welcome to the next chapter in the construction. Welcome to Via
+              Pontium.
+            </h1>
+            <p>
+              You are actually contructing what your head understand about What
+              Your Eyes Saw....
+            </p>
           </div>
         </div>
       </div>
