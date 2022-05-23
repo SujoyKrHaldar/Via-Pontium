@@ -1,7 +1,7 @@
 import Head from "next/head";
 import AboutUs from "../components/home/AboutUs";
 import Landing from "../components/home/Landing";
-import WhatWeDo from "../components/home/WhatWeDo";
+import Service from "../components/home/Service";
 import Layout from "../components/layout/Layout";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <Layout>
         <Landing />
         <AboutUs />
-        <WhatWeDo />
+        <Service />
       </Layout>
     </>
   );
