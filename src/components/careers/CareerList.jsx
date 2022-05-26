@@ -1,4 +1,4 @@
-import CareerCard from "../designs/cards/CareerCard";
+import CardCareer from "../designs/cards/Card-career";
 
 function CareerList() {
   return (
@@ -7,12 +7,10 @@ function CareerList() {
         <h2 className="mb-8">Find yourself a Job.</h2>
 
         <div className="grid grid-cols-4 gap-4">
-          <CareerCard />
-          <CareerCard />
-          <CareerCard />
-          <CareerCard />
-          <CareerCard />
-          <CareerCard />
+          <CardCareer />
+          <CardCareer />
+          <CardCareer />
+          <CardCareer />
         </div>
       </div>
     </>

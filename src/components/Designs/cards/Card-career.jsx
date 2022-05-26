@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { MdTipsAndUpdates } from "react-icons/md";
 
-function CareerCard() {
+function CardCareer() {
   return (
     <>
       <div className="hover:bg-[black] hover:text-white text-black bg-white p-6 duration-75 border-[2px] border-[black]">
@@ -25,4 +25,4 @@ function CareerCard() {
   );
 }
 
-export default CareerCard;
+export default CardCareer;
