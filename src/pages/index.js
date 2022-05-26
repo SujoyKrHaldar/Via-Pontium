@@ -1,6 +1,7 @@
 import Head from "next/head";
 import AboutUs from "../components/home/AboutUs";
 import Landing from "../components/home/Landing";
+import Objective from "../components/home/Objective";
 import Service from "../components/home/Service";
 import Layout from "../components/layout/Layout";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Layout>
         <Landing />
         <AboutUs />
+        <Objective />
         <Service />
       </Layout>
     </>

@@ -22,7 +22,7 @@ function ServiceContent({ data }) {
           ))}
         </div>
 
-        <Link href="/contact">
+        <Link href="/service">
           <a className="btn mt-8 bg-black text-white">Explore all services</a>
         </Link>
       </div>
