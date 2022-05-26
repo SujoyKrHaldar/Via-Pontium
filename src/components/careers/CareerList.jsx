@@ -1,4 +1,4 @@
-import CardCareer from "../designs/cards/Card-career";
+import CardCareer from "../designs/cards/CardCareer";
 
 function CareerList() {
   return (
