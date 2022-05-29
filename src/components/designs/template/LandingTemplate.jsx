@@ -3,7 +3,7 @@ import BackgroundImage from "../others/BackgroundImage";
 function LandingTemplate({ children, src, position, height }) {
   return (
     <>
-      <div className={`w-full h-[${height || "55vh"}]`}>
+      <div className={`w-full ${height || "h-[55vh]"}`}>
         <BackgroundImage
           alt="Landing Image"
           position={position || "50% 50%"}

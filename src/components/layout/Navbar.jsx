@@ -44,11 +44,14 @@ function Navbar() {
   };
   return (
     <>
-      <div className="absolute w-full top-0 z-[10] text-black bg-white border-b-[1px] border-[#ffffff1a]">
-        <div className="container flex items-center justify-between gap-4 ">
-          <div className="flex items-center justify-start gap-4">
+      <div
+        className="absolute w-full h-[85px] top-0 z-[10] text-black bg-white 
+        flex items-center"
+      >
+        <div className="container h-full w-full flex items-center justify-between gap-4 ">
+          <div className="flex items-center justify-start gap-12">
             <Link href="/">
-              <div className="w-[40px] cursor-pointer py-4">
+              <div className="w-[100px] h-[70px] cursor-pointer py-4">
                 <Image
                   src="/logo.png"
                   alt="Via Pontium logo"
@@ -66,10 +69,8 @@ function Navbar() {
           <div className="flex items-center justify-between gap-8">
             <Link href="/contact">
               <a
-                className={`py-4 btn bg-white text-black ${
-                  router.pathname == "/contact"
-                    ? "before:absolute before:bottom-[-9px] before:left-0 before:bg-white before:w-full before:h-[2px]"
-                    : ""
+                className={` font-semibold px-8 py-3 text-sm rounded-none bg-black text-white ${
+                  router.pathname == "/contact" ? "" : ""
                 }`}
               >
                 Contact

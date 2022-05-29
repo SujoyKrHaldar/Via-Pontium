@@ -4,7 +4,7 @@ import { MdTipsAndUpdates } from "react-icons/md";
 function CardCareer() {
   return (
     <>
-      <div className="hover:bg-[black] hover:text-white text-black bg-white p-6 duration-75 border-[2px] border-[black]">
+      <div className="hover:bg-[#2e4fac] text-white bg-[#5671bc] p-6 duration-75">
         <div className="flex mb-4 text-3xl ">
           <MdTipsAndUpdates />
         </div>

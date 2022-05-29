@@ -4,8 +4,10 @@ function Landing() {
   return (
     <>
       <LandingTemplate src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80">
-        <p className=" font-bold">Careers</p>
-        <h1>We are looking for the best</h1>
+        <div className="text-white">
+          <p className=" font-bold">Careers</p>
+          <h1>We are looking for the best</h1>
+        </div>
       </LandingTemplate>
 
       <div className="container py-12 w-full h-full flex items-start justify-between">

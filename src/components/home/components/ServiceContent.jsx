@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { MdArrowRight } from "react-icons/md";
 
 function ServiceContent({ data }) {
   return (
@@ -16,9 +17,15 @@ function ServiceContent({ data }) {
 
         <div className="px-4 py-2">
           {data.map((d, i) => (
-            <p className="mb-2 last:mb-0 max-w-xs font-medium" key={i}>
-              {d.service}
-            </p>
+            <div
+              className="mb-2 last:mb-0 max-w-xs font-medium flex items-center justify-start gap-4"
+              key={i}
+            >
+              <div className="flex items-center bg-[#dedede] text-black p-[4px] rounded-full">
+                <MdArrowRight />
+              </div>
+              <p>{d.service}</p>
+            </div>
           ))}
         </div>
 
