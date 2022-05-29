@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import LandingTemplate from "../components/designs/template/LandingTemplate";
+import ServiceList from "../components/service/ServiceList";
 
 function services() {
   return (
@@ -16,6 +17,7 @@ function services() {
           <p className="font-bold">Services</p>
           <h1>What we do the best</h1>
         </LandingTemplate>
+        <ServiceList />
       </Layout>
     </>
   );

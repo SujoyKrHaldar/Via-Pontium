@@ -11,7 +11,6 @@ function CareerList() {
           <CardCareer />
           <CardCareer />
           <CardCareer />
-          <CardCareer />
         </div>
       </div>
     </>
