@@ -44,7 +44,7 @@ function Navbar() {
   };
   return (
     <>
-      <div className="absolute w-full top-0 z-[10] text-white border-b-[1px] border-[#ffffff1a]">
+      <div className="absolute w-full top-0 z-[10] text-black bg-white border-b-[1px] border-[#ffffff1a]">
         <div className="container flex items-center justify-between gap-4 ">
           <div className="flex items-center justify-start gap-4">
             <Link href="/">

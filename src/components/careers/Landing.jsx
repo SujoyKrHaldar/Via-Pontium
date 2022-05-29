@@ -1,22 +1,12 @@
-import BackgroundImage from "../designs/others/BackgroundImage";
+import LandingTemplate from "../designs/template/LandingTemplate";
 
 function Landing() {
   return (
     <>
-      <div className={`w-full h-[55vh]`}>
-        <BackgroundImage
-          alt="Landing Image"
-          position="50% 50%"
-          src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
-        />
-
-        <div className="container w-full h-full flex items-end justify-start">
-          <div className=" text-white py-12">
-            <p className=" font-bold">Careers</p>
-            <h1>We are looking for the best</h1>
-          </div>
-        </div>
-      </div>
+      <LandingTemplate src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80">
+        <p className=" font-bold">Careers</p>
+        <h1>We are looking for the best</h1>
+      </LandingTemplate>
 
       <div className="container py-12 w-full h-full flex items-start justify-between">
         <div className="max-w-lg  ">
