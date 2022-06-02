@@ -7,10 +7,14 @@ function ServiceList({ data }) {
         {data.map((d, i) => (
           <div
             key={i}
-            className="bg-gray-100 flex-1 p-8 text-left even:translate-y-[-40px]"
+            className="group drop-shadow-xl bg-white border-2 border-transparent 
+            duration-300 hover:border-[#5c78f5]
+            flex-1 p-8 text-left even:translate-y-[-40px]"
           >
             <div className="max-w-lg">
-              <p className="text-xl font-bold mb-4">{d.name}</p>
+              <p className="text-xl font-bold mb-4 group-hover:text-[#475dc1]">
+                {d.name}
+              </p>
 
               {d.details.map((dd, ii) => (
                 <div
@@ -20,7 +24,9 @@ function ServiceList({ data }) {
                   <div className="flex items-center bg-white text-black p-[5px] ">
                     <MdArrowRight />
                   </div>
-                  <p className="text-[#616161]">{dd.name}</p>
+                  <p className="text-[#616161] group-hover:text-[#475dc1]">
+                    {dd.name}
+                  </p>
                 </div>
               ))}
             </div>

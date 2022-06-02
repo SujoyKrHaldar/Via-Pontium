@@ -99,9 +99,10 @@ function Landing() {
     <>
       <div className="py-[8rem] bg-white">
         <div className="container py-[4rem] text-center">
-          <p className="font-semibold text-[#9f9f9f]">What we do the best</p>
+          <p className="font-semibold text-[#475dc1]">What we do the best</p>
           <h1 className="max-w-3xl mx-auto text-5xl mb-4 leading-[3.5rem]">
-            Start your next Project with Proper research.
+            Start your <span className="text-[#475dc1]">Next Project</span> with
+            proper <span className="text-[#f16c59]">Research</span>.
           </h1>
           <p>And let us help you reach your goals.</p>
 
