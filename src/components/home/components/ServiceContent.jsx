@@ -30,7 +30,9 @@ function ServiceContent({ data }) {
         </div>
 
         <Link href="/services">
-          <a className="btn mt-8 bg-black text-white">Explore all services</a>
+          <a className="btn mt-8 bg-[#475dc1] text-white">
+            Explore all services
+          </a>
         </Link>
       </div>
     </>

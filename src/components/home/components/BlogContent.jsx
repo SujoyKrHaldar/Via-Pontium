@@ -12,7 +12,7 @@ function BlogContent({ data }) {
         </div>
 
         <Link href="/blogs">
-          <a className="btn bg-black text-white font-semibold">
+          <a className="btn bg-[#475dc1] text-white">
             View other {data.length - 3} posts
           </a>
         </Link>
