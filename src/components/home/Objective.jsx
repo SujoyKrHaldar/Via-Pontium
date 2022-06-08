@@ -1,11 +1,12 @@
 import BackgroundImage from "../designs/others/BackgroundImage";
+import Container from "../layout/Container";
 import ObjectiveContent from "./components/ObjectiveContent";
 
 function Objective() {
   return (
     <>
       <div className="py-[8rem] bg-[#f8f8f8]">
-        <div className="container flex items-center justify-evenly gap-8 ">
+        <Container className="flex items-center justify-evenly gap-8">
           <div className="flex-1">
             <ObjectiveContent />
           </div>
@@ -17,7 +18,7 @@ function Objective() {
               />
             </div>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

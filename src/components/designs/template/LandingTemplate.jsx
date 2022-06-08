@@ -1,3 +1,4 @@
+import Container from "../../layout/Container";
 import BackgroundImage from "../others/BackgroundImage";
 
 function LandingTemplate({ children, src, position, height }) {
@@ -9,10 +10,9 @@ function LandingTemplate({ children, src, position, height }) {
           position={position || "50% 50%"}
           src={src}
         />
-
-        <div className="container w-full h-full flex items-end justify-start">
+        <Container className="w-full h-full flex items-end justify-start">
           <div className="py-12 max-w-xl">{children}</div>
-        </div>
+        </Container>
       </div>
     </>
   );

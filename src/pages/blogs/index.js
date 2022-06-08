@@ -2,7 +2,16 @@ import Head from "next/head";
 import Layout from "../../components/layout/Layout";
 import LandingTemplate from "../../components/designs/template/LandingTemplate";
 
-function index() {
+export const getServerSideProps = async () => {
+  const json = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const data = await json.json();
+
+  return {
+    props: { data },
+  };
+};
+
+function index({ data }) {
   return (
     <>
       <Head>
