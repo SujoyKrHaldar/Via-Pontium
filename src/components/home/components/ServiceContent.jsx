@@ -5,11 +5,11 @@ function ServiceContent({ data }) {
   return (
     <>
       <div className="max-w-lg">
-        <p>What we do</p>
-        <h2 className="mb-4">
+        <p className=" mb-2">What we do</p>
+        <p className="font-bold text-2xl mb-4">
           We are a team of experienced professional in their specialities.
           Discover our services and adjust them to yourself.
-        </h2>
+        </p>
         <p className="max-w-md mb-4">
           According to the key skills present in our team members, we can
           deliver the following consultancy services.

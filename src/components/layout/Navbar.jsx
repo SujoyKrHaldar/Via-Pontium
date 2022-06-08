@@ -69,7 +69,7 @@ function Navbar() {
           <div className="flex items-center justify-between gap-8">
             <Link href="/contact">
               <a
-                className={` font-semibold px-8 py-3 text-sm rounded-none bg-black text-white ${
+                className={` font-semibold px-8 py-3 text-sm rounded-none bg-[#475dc1] text-white ${
                   router.pathname == "/contact" ? "" : ""
                 }`}
               >

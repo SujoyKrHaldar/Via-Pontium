@@ -10,10 +10,10 @@ function Navbar_Desktop({ navLinks }) {
         {navLinks.map((links, index) => (
           <Link href={links.url} key={index}>
             <a
-              className={`py-4 font-semibold text-sm hover:text-black duration-300${
+              className={`py-4 font-semibold text-sm hover:text-[#475dc1] duration-300 text-black ${
                 router.pathname == links.url
-                  ? "text-black before:absolute before:bottom-[-15px] before:left-0 before:bg-black before:w-full before:h-[4px]"
-                  : " text-[#919191]"
+                  ? "text-[#475dc1] before:absolute before:bottom-[-15px] before:left-0 before:bg-[#475dc1] before:w-full before:h-[4px]"
+                  : " "
               }`}
             >
               {links.link}
