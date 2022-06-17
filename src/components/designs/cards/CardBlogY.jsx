@@ -11,7 +11,7 @@ function CardBlogY({ data, className = "" }) {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="p-8">
+        <div className="p-5">
           <p className="mb-2">20th Jan 2022</p>
           <p className="font-bold mb-4 text-xl max-w-sm">{data.title}.</p>
           <Link

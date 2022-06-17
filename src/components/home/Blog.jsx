@@ -9,10 +9,10 @@ function Blog({ data }) {
         <Container>
           <BlogContent data={data} />
 
-          <div className="mt-8 flex items-start gap-4 justify-start flex-wrap">
-            {data.slice(0, 3).map((item) => (
+          <div className="mt-8 grid grid-cols-4 gap-4">
+            {data.slice(0, 4).map((item) => (
               <CardBlogY
-                className=" flex-[1_1_300px] bg-white hover:shadow-lg  "
+                className="  bg-white hover:shadow-lg  "
                 data={item}
                 key={item.id}
               />
